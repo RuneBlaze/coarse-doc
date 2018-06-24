@@ -258,6 +258,8 @@ which enables us writing code remniscient of imperative programming.
 This library provides additional macros
 to facilitate this pseudo-imperative style.
 
+The following macros can be found in the ```coarse.macros``` namespace.
+
 ### +>>, the zooming operator
 
 ```+>>``` "zooms" into a substructure using a lens,
