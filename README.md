@@ -17,6 +17,8 @@
              [& *= *- *= *> += -= <%- <<%- =% _1 _2 _3 _4 _5 _all _butlast _dropping _filtering _first _index _last _pred _ranging _rest _taking attrs bind chain div= each eval-state exec-state filtered has? hcomp ix ix-default join lens magnify nx over preview quot= run-state sett to to-list-of view views]]))
 </code></pre>
 
+>A lens is a value that composes a getter and a setter function to produce a bidirectional view into a data structure. This definition is intentionally broad—lenses are a very general concept, and they can be applied to almost any kind of value that encapsulates data. -- Racket "lens" documentation
+
 
 ## Lenses
 

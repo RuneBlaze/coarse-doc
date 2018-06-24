@@ -22,6 +22,14 @@ and I have not checked the lens laws on the lens I implemented.
 In the end, I have no idea if the lenses and traversals
 are degenrate or not (and I really should know).
 
+## Roadmap
+
+ - Cleanup the code, especially all the pseudotypeclass code smell
+ - add transient support?
+ - add more key-value data support
+ - detect more bugs
+ - test for lens laws
+
 ## All Functions under coarse.core
 
 TODO
