@@ -247,7 +247,7 @@ and constructs dealing with the state monad.
 State monad can be unidiomatic in Clojure
 and the need for the state monad is to some extent
 mitigated via the threading macros, ```->``` and ```->>```,
-which enables us writing code remniscient of imperative programming.
+which enables us writing code reminiscent of imperative programming.
 
 ```eval-clojure
 (->> {:pos [0 0]}
@@ -263,7 +263,7 @@ The following macros can be found in the ```coarse.macros``` namespace.
 ### +>>, the zooming operator
 
 ```+>>``` "zooms" into a substructure using a lens,
-remniscient of the original library's ```zoom```
+reminiscent of the original library's ```zoom```
 function.
 
 ```clojure
